@@ -27,50 +27,50 @@ const Contact: React.FC = () => {
     <section id="contact" className="contact bg-light">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Get In Touch</h2>
+          <h2 className="section-title">Connect With Us</h2>
           <p className="section-subtitle">
-            Ready to start your next project? Let's discuss how I can help your business grow.
+            Join our community and follow our streaming adventures! We love connecting with our viewers.
           </p>
         </div>
         
         <div className="contact-content">
           <div className="contact-info">
-            <h3>Let's Build Something Amazing</h3>
+            <h3>Join Our Community</h3>
             <p>
-              I'm always excited to work with fellow entrepreneurs and small business owners. 
-              Whether you need a website, graphics, or tech support, let's talk about how 
-              I can help you compete with the big players.
+              We love connecting with our amazing community! Follow us on Twitch, join our Discord, 
+              and be part of our wholesome streaming family. We're always excited to meet new people 
+              and share our gaming adventures together.
             </p>
             
             <div className="contact-methods">
               <div className="contact-method">
-                <div className="method-icon">📧</div>
+                <div className="method-icon">🎮</div>
                 <div className="method-details">
-                  <h4>Email</h4>
-                  <p>hello@crawforddigital.com</p>
+                  <h4>Valen's Twitch</h4>
+                  <p>twitch.tv/valenvayne</p>
                 </div>
               </div>
               
               <div className="contact-method">
-                <div className="method-icon">📱</div>
+                <div className="method-icon">🎨</div>
                 <div className="method-details">
-                  <h4>Phone</h4>
-                  <p>+1 (555) 123-4567</p>
+                  <h4>Viktoriya's Twitch</h4>
+                  <p>twitch.tv/viktoriyavogue</p>
                 </div>
               </div>
               
               <div className="contact-method">
-                <div className="method-icon">📍</div>
+                <div className="method-icon">💬</div>
                 <div className="method-details">
-                  <h4>Location</h4>
-                  <p>Available for remote work worldwide</p>
+                  <h4>Discord</h4>
+                  <p>Join our community server</p>
                 </div>
               </div>
             </div>
             
             <div className="response-time">
-              <h4>Quick Response</h4>
-              <p>As a solo business owner, I understand the importance of quick communication. I'll get back to you within a few hours, not days.</p>
+              <h4>Always Streaming</h4>
+              <p>We're usually live on Twitch! Check our schedules and join us for gaming, art, and wholesome content.</p>
             </div>
           </div>
           

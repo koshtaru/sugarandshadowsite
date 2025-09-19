@@ -6,38 +6,38 @@ const About: React.FC = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2 className="about-title">About James Crawford</h2>
+            <h2 className="about-title">About SweetAndShadow</h2>
             <p className="about-description">
-              I'm a self-taught developer who started coding in my spare time and fell in love 
-              with solving problems. What began as a hobby has become my passion—helping 
-              small businesses compete with the big players through smart, affordable digital 
-              solutions. I believe every business deserves a fighting chance online.
+              We're Valen Vayne and Viktoriya Vogue, a married VTuber duo who love sharing 
+              our gaming adventures, creative processes, and daily life with our amazing community. 
+              What started as individual streams has become a beautiful partnership where we 
+              create wholesome content together and spread joy through gaming and creativity.
             </p>
             <div className="about-highlights">
               <div className="highlight">
-                <h4>Self-Taught & Hungry</h4>
-                <p>I learned everything through trial, error, and endless YouTube tutorials. This makes me resourceful and determined.</p>
+                <h4>Valen Vayne - The Gamer</h4>
+                <p>Valen brings the energy and excitement to our streams with his love for competitive gaming and indie adventures.</p>
               </div>
               <div className="highlight">
-                <h4>Small Business Champion</h4>
-                <p>I understand the struggles of running a small business because I am one. Your success is my success.</p>
+                <h4>Viktoriya Vogue - The Artist</h4>
+                <p>Viktoriya shares her creative process through digital art, music, and character design streams.</p>
               </div>
               <div className="highlight">
-                <h4>Personal Touch</h4>
-                <p>You'll work directly with me, not a team. Every project gets my full attention and passion.</p>
+                <h4>Together We're Stronger</h4>
+                <p>Our chemistry and love for each other creates the most wholesome and entertaining content for our community.</p>
               </div>
             </div>
             <div className="about-skills">
-              <h4>Technical Skills</h4>
+              <h4>What We Love</h4>
               <div className="skills-grid">
-                <span className="skill-tag">React & TypeScript</span>
-                <span className="skill-tag">Node.js</span>
-                <span className="skill-tag">Adobe Creative Suite</span>
-                <span className="skill-tag">Figma</span>
-                <span className="skill-tag">System Administration</span>
-                <span className="skill-tag">Network Security</span>
-                <span className="skill-tag">Cloud Solutions</span>
-                <span className="skill-tag">Database Management</span>
+                <span className="skill-tag">Gaming</span>
+                <span className="skill-tag">Digital Art</span>
+                <span className="skill-tag">Music Creation</span>
+                <span className="skill-tag">Character Design</span>
+                <span className="skill-tag">Community Building</span>
+                <span className="skill-tag">Wholesome Content</span>
+                <span className="skill-tag">Interactive Streams</span>
+                <span className="skill-tag">Creative Challenges</span>
               </div>
             </div>
           </div>
@@ -45,23 +45,23 @@ const About: React.FC = () => {
             <div className="about-image">
               <div className="image-placeholder">
                 <div className="placeholder-content">
-                  <div className="placeholder-icon">👨‍💻</div>
-                  <p>Professional Headshot</p>
+                  <div className="placeholder-icon">💕</div>
+                  <p>Valen & Viktoriya</p>
                 </div>
               </div>
             </div>
             <div className="about-stats">
               <div className="stat-item">
-                <h3>5+</h3>
-                <p>Years Learning</p>
+                <h3>2</h3>
+                <p>Streamers</p>
               </div>
               <div className="stat-item">
-                <h3>50+</h3>
-                <p>Projects Completed</p>
+                <h3>∞</h3>
+                <p>Love & Fun</p>
               </div>
               <div className="stat-item">
-                <h3>100%</h3>
-                <p>Personal Commitment</p>
+                <h3>24/7</h3>
+                <p>Wholesome Vibes</p>
               </div>
             </div>
           </div>

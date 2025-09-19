@@ -17,16 +17,17 @@ const Header: React.FC = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <h2>Crawford Digital</h2>
+            <h2>SweetAndShadow</h2>
           </div>
           <nav className="nav">
             <a href="#home" className="nav-link">Home</a>
-            <a href="#services" className="nav-link">Services</a>
-            <a href="#about" className="nav-link">About</a>
+            <a href="#streams" className="nav-link">Streams</a>
+            <a href="#about" className="nav-link">About Us</a>
             <a href="#contact" className="nav-link">Contact</a>
           </nav>
           <div className="header-cta">
-            <a href="#contact" className="btn btn-primary">Get Started</a>
+            <a href="https://twitch.tv/valenvayne" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Watch Valen</a>
+            <a href="https://twitch.tv/viktoriyavogue" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">Watch Viktoriya</a>
           </div>
         </div>
       </div>

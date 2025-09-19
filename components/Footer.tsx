@@ -6,52 +6,52 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
-            <h3 className="footer-logo">Crawford Digital</h3>
+            <h3 className="footer-logo">SweetAndShadow</h3>
             <p className="footer-description">
-              One developer, endless possibilities. I help small businesses 
-              compete with the big players through smart, affordable digital solutions.
+              Valen Vayne & Viktoriya Vogue - A married VTuber duo bringing you 
+              wholesome gaming content, creative streams, and endless entertainment.
             </p>
             <div className="footer-social">
-              <a href="#" className="social-link" aria-label="LinkedIn">
-                <span>💼</span>
+              <a href="https://twitch.tv/valenvayne" className="social-link" aria-label="Valen's Twitch" target="_blank" rel="noopener noreferrer">
+                <span>🎮</span>
               </a>
-              <a href="#" className="social-link" aria-label="Twitter">
-                <span>🐦</span>
+              <a href="https://twitch.tv/viktoriyavogue" className="social-link" aria-label="Viktoriya's Twitch" target="_blank" rel="noopener noreferrer">
+                <span>🎨</span>
               </a>
-              <a href="#" className="social-link" aria-label="GitHub">
-                <span>🐙</span>
+              <a href="#" className="social-link" aria-label="Discord">
+                <span>💬</span>
               </a>
             </div>
           </div>
           
           <div className="footer-links">
             <div className="footer-column">
-              <h4>Services</h4>
+              <h4>Content</h4>
               <ul>
-                <li><a href="#services">Web Design</a></li>
-                <li><a href="#services">Graphic Design</a></li>
-                <li><a href="#services">IT Support</a></li>
-                <li><a href="#contact">Consultation</a></li>
+                <li><a href="#services">Gaming Streams</a></li>
+                <li><a href="#services">Creative Content</a></li>
+                <li><a href="#services">Wholesome Vibes</a></li>
+                <li><a href="#contact">Community</a></li>
               </ul>
             </div>
             
             <div className="footer-column">
-              <h4>Company</h4>
+              <h4>Streamers</h4>
               <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#services">Portfolio</a></li>
-                <li><a href="#contact">Get Quote</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Connect</a></li>
+                <li><a href="https://twitch.tv/valenvayne" target="_blank" rel="noopener noreferrer">Valen's Twitch</a></li>
+                <li><a href="https://twitch.tv/viktoriyavogue" target="_blank" rel="noopener noreferrer">Viktoriya's Twitch</a></li>
               </ul>
             </div>
             
             <div className="footer-column">
-              <h4>Contact Info</h4>
+              <h4>Follow Us</h4>
               <ul>
-                <li>hello@crawforddigital.com</li>
-                <li>+1 (555) 123-4567</li>
-                <li>Remote Worldwide</li>
-                <li>Available 24/7</li>
+                <li>twitch.tv/valenvayne</li>
+                <li>twitch.tv/viktoriyavogue</li>
+                <li>Discord Community</li>
+                <li>Always Streaming</li>
               </ul>
             </div>
           </div>
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
         
         <div className="footer-bottom">
           <div className="footer-copyright">
-            <p>&copy; 2024 Crawford Digital. All rights reserved.</p>
+            <p>&copy; 2024 SweetAndShadow. All rights reserved.</p>
           </div>
           <div className="footer-legal">
             <a href="#">Privacy Policy</a>

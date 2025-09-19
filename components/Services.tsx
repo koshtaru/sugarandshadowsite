@@ -3,22 +3,22 @@ import React from 'react';
 const Services: React.FC = () => {
   const services = [
     {
-      icon: '🌐',
-      title: 'Web Design & Development',
-      description: 'I build websites that actually work. No templates, no shortcuts—just clean, fast, and beautiful sites that help your business grow.',
-      features: ['Custom Built', 'Mobile-First', 'SEO Ready', 'Lightning Fast']
+      icon: '🎮',
+      title: 'Gaming Streams',
+      description: 'Join Valen and Viktoriya for exciting gaming adventures! From cozy indie games to competitive multiplayer, we bring the fun and wholesome vibes.',
+      features: ['Indie Games', 'Co-op Adventures', 'Retro Gaming', 'New Releases']
     },
     {
       icon: '🎨',
-      title: 'Graphic Design',
-      description: 'I create visuals that tell your story. From logos to marketing materials, I make sure your brand stands out in a crowded market.',
-      features: ['Unique Logos', 'Brand Identity', 'Marketing Materials', 'Social Media Graphics']
+      title: 'Creative Content',
+      description: 'Watch us create art, music, and digital content! Viktoriya shares her artistic process while Valen provides the perfect commentary.',
+      features: ['Digital Art', 'Music Creation', 'Character Design', 'Creative Challenges']
     },
     {
-      icon: '💻',
-      title: 'IT Technical Support',
-      description: 'When technology breaks, I fix it. I keep your systems running so you can focus on what you do best—running your business.',
-      features: ['Quick Fixes', 'System Setup', 'Network Security', '24/7 Support']
+      icon: '💕',
+      title: 'Wholesome Vibes',
+      description: 'Experience the love and laughter of a married couple sharing their passions. Our streams are a safe space for everyone to enjoy.',
+      features: ['Safe Community', 'Positive Energy', 'Couple Content', 'Interactive Chat']
     }
   ];
 
@@ -26,9 +26,9 @@ const Services: React.FC = () => {
     <section id="services" className="services bg-light">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">What I Do Best</h2>
+          <h2 className="section-title">What We Stream</h2>
           <p className="section-subtitle">
-            Three core skills I've honed over years of helping small businesses succeed online
+            Three types of content we love creating for our amazing community
           </p>
         </div>
         
@@ -54,9 +54,10 @@ const Services: React.FC = () => {
         </div>
         
         <div className="services-cta">
-          <h3>Ready to Work Together?</h3>
-          <p>I'm always excited to take on new challenges. Let's talk about your project and see how I can help you succeed.</p>
-          <a href="#contact" className="btn btn-primary">Let's Build Something</a>
+          <h3>Join Our Community!</h3>
+          <p>Follow us on Twitch and join our Discord to be part of our amazing community. We love connecting with our viewers!</p>
+          <a href="https://twitch.tv/valenvayne" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Follow Valen</a>
+          <a href="https://twitch.tv/viktoriyavogue" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">Follow Viktoriya</a>
         </div>
       </div>
     </section>

@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Crawford Digital - Web Design, Graphic Design & IT Support</title>
-        <meta name="description" content="Crawford Digital - Professional web design, graphic design, and IT technical support services" />
+        <title>SweetAndShadow - Valen Vayne & Viktoriya Vogue | VTuber Duo</title>
+        <meta name="description" content="SweetAndShadow - Married VTuber duo Valen Vayne and Viktoriya Vogue streaming on Twitch. Join us for gaming, art, and wholesome content!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
