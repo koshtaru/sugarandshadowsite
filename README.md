@@ -1,6 +1,6 @@
-# Crawford Digital Website
+# SweetAndShadow VTuber Website
 
-A professional landing page for Crawford Digital, specializing in web design, graphic design, and IT technical support services.
+A beautiful landing page for SweetAndShadow, featuring married VTuber duo Valen Vayne and Viktoriya Vogue streaming on Twitch.
 
 ## Features
 
@@ -9,7 +9,7 @@ A professional landing page for Crawford Digital, specializing in web design, gr
 - **React TypeScript**: Built with React 18 and TypeScript for type safety
 - **Professional Sections**:
   - Hero section with compelling call-to-action
-  - Services showcase (Web Design, Graphic Design, IT Support)
+  - Content showcase (Gaming Streams, Creative Content, Wholesome Vibes)
   - About section with skills and experience
   - Contact form with service selection
   - Professional footer

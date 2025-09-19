@@ -113,18 +113,18 @@ const Contact: React.FC = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="service">Service Interested In</label>
+                  <label htmlFor="service">Content Type Interested In</label>
                   <select
                     id="service"
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
                   >
-                    <option value="">Select a service</option>
-                    <option value="web-design">Web Design & Development</option>
-                    <option value="graphic-design">Graphic Design</option>
-                    <option value="it-support">IT Technical Support</option>
-                    <option value="consultation">Consultation</option>
+                    <option value="">Select content type</option>
+                    <option value="gaming">Gaming Streams</option>
+                    <option value="creative">Creative Content</option>
+                    <option value="wholesome">Wholesome Vibes</option>
+                    <option value="collaboration">Collaboration</option>
                   </select>
                 </div>
               </div>
@@ -137,7 +137,7 @@ const Contact: React.FC = () => {
                   rows={5}
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Tell me about your project and how I can help..."
+                  placeholder="Tell us about what you'd like to see in our streams or how we can connect..."
                   required
                 ></textarea>
               </div>
