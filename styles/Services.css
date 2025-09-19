@@ -1,0 +1,151 @@
+.services {
+  padding: 100px 0;
+  background-color: #151530;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #a0a0b5;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.service-card {
+  background: rgba(10, 10, 26, 0.8);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(122, 43, 246, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(122, 43, 246, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(122, 43, 246, 0.3);
+  border-color: rgba(122, 43, 246, 0.4);
+}
+
+.service-icon {
+  margin-bottom: 1.5rem;
+}
+
+.icon-emoji {
+  font-size: 3rem;
+  display: block;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.service-description {
+  color: #a0a0b5;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.service-features {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #a0a0b5;
+}
+
+.feature-check {
+  color: #7a2bf6;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.service-cta {
+  color: #7a2bf6;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.service-cta:hover {
+  color: #f054ff;
+}
+
+.services-cta {
+  text-align: center;
+  background: rgba(10, 10, 26, 0.8);
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(122, 43, 246, 0.1);
+  border: 1px solid rgba(122, 43, 246, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.services-cta h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.services-cta p {
+  color: #a0a0b5;
+  margin-bottom: 2rem;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .services {
+    padding: 80px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .service-card {
+    padding: 2rem;
+  }
+  
+  .services-cta {
+    padding: 2rem;
+  }
+}
