@@ -18,9 +18,10 @@ const Footer: React.FC = () => {
               <a href="https://twitch.tv/viktoriyavogue" className="social-link" aria-label="Viktoriya's Twitch" target="_blank" rel="noopener noreferrer">
                 <span>🎨</span>
               </a>
-              <a href="#" className="social-link" aria-label="Discord">
+              {/* TODO: Add Discord server link when available */}
+              {/* <a href="#" className="social-link" aria-label="Discord">
                 <span>💬</span>
-              </a>
+              </a> */}
             </div>
           </div>
           
@@ -60,10 +61,6 @@ const Footer: React.FC = () => {
         <div className="footer-bottom">
           <div className="footer-copyright">
             <p>&copy; 2024 SweetAndShadow. All rights reserved.</p>
-          </div>
-          <div className="footer-legal">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
           </div>
         </div>
       </div>
