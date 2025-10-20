@@ -19,8 +19,17 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I\'ll get back to you soon.');
+    // TODO: Implement backend API endpoint for form submission
+    // For now, we'll show a user-friendly message
+    alert('Thank you for your message! We\'ll get back to you soon.');
+    // Reset form after submission
+    setFormData({
+      name: '',
+      email: '',
+      company: '',
+      service: '',
+      message: ''
+    });
   };
 
   return (
